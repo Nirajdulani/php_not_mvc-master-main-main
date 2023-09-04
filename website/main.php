@@ -10,7 +10,7 @@
           sinthete better together these place absolute right.
         </p>
         <div class="btn min-w-sm space-x-4 mt-12 text-white">
-          <span class="bg-blue-700 p-4 cursor-pointer hover:bg-white hover:text-blue-800"> Make An Appointment </span>
+          <span class="bg-blue-700 p-4 cursor-pointer hover:bg-white hover:text-blue-800"><a href="../website/Appointment.php"> Make An Appointment </a>  </span>
           <span class="bg-transparent border border-blue-800 p-4 cursor-pointer hover:bg-white hover:text-blue-700">
             View Department </span>
         </div>
