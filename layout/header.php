@@ -14,20 +14,22 @@
     <nav class="container mx-auto flex p-6 justify-between">
 
       <span>
-        <a href="<?= set_url('users/index') ?>">Dashboard</a>
+        <a href=""><img src="../images/Logo.png" alt="" class="w-24"></a>
       </span>
 
 
-      <span class="space-x-6">
-        <a href="<?= set_url('users/index') ?>">Users</a>
+      <span class="space-x-8 text-lg">
+        <a href="<?= set_url('users/index') ?>">Dashboard</a>
+        <a href="<?= set_url('users/index') ?>">Appointment</a>
+        <a href="<?= set_url('users/index') ?>">Patients</a>
         <a href="<?= set_url('doctors/index') ?>">Doctor</a>
         <a href="<?= set_url('department/index') ?>">Department</a>
 
       </span>
 
 
-      <span>
-        <a href="<?= set_url('auth/logout') ?>">Logout</a>
+      <span class="text-lg mr-4">
+        <a href="<?= set_url('auth/logout') ?>" class="">Logout</a>
       </span>
 
     </nav>

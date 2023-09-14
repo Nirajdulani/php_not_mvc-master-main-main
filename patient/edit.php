@@ -25,7 +25,7 @@
      <div class="text-gray-600">
        <h1 class="text-3xl font-bold">
          <?= ucfirst($mode) ?> patient <?= $id ?></h1>
-       <p class="font-medium text-lg">Personal Details</p>
+       <p class="font-medium text-lg">Patient Details</p>
        <p>Please fill out all the fields.</p>
      </div>
 

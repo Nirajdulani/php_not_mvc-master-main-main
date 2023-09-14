@@ -27,7 +27,7 @@ class db
 
   public  function total()
   {
-    $total= $this->conn->query("SELECT * FROM $this->table_name")->fetch_array();
+    $total= $this->conn->query("SELECT * FROM $this->table_name")->fetch_all(MYSQLI_ASSOC);
     // dd($total);
     return count($total);
   }
