@@ -96,7 +96,7 @@
                  <td class="text-black px-8 py-4"> <?= $user['contact'] ?></td>
                  <td class="text-black px-8 py-4"><?= $user['diseases'] ?></td>
                  <td class="px-4 py-4 text-sm space-x-4">
-                 <a href="" class="text-green-500 font-bold ">View</a>
+                 <a href="<?= '/patient/view.php?id=' . $user['id'] ?>" class="text-green-500 font-bold ">View</a>
                  <a href="<?= '/patient/edit.php?id=' . $user['id'] ?>" class="text-blue-500 font-bold "> Edit</a>
                    <a href="<?= set_url('delete=' . $user['id']) ?>" class="text-red-500   font-bold  ml-1"> Delete</a>
                  </td>     

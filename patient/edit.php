@@ -57,7 +57,8 @@
 
          <div class="md:col-span-5">
            <label for="fullname">Date</label>
-           <input type="date" name="date" id="date" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="<?= isset($date) ? $date : '' ?>" />
+           <input type="date" name="joiningdate" id="joiningdate" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="<?= isset($date) ? $date : '' ?>" />
+           <!-- <input type="text" disabled id="demoDate" name="joiningdate" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="<?= isset($date) ? $date : '' ?>" /> -->
          </div>
 
          <div class="md:col-span-2">
@@ -105,3 +106,14 @@
 
 
  <?php require_once '../layout/footer.php'; ?>
+
+
+ <script>
+    let date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() +1 ;
+    let year = date.getFullYear();
+    let fullDate = `${day}/${month}/${year}`;
+    let demoDate = document.querySelector("#demoDate").value = fullDate;
+
+</script>
